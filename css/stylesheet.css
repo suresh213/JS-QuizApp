@@ -1,0 +1,192 @@
+body{
+    background-color:rgb(35, 87, 131);
+}
+h3{
+    font-family: 'Capriola', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(19, 82, 82);
+}
+.container{
+    background-color: white;
+    height: 320px;
+    width: 600px;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+#name{
+    border : 0;
+    outline: 0;
+    border-bottom: solid 2px rgb(4, 37, 80);
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    font-size: 24px;
+}
+
+
+#question-head{
+    font-size: 20px;
+    margin:20px 0px 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.questions{
+    font-size: 20px;
+    margin:20px 0px 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.answers{
+    margin-left: 50px;
+    width: 500px;
+    height: 130px;
+    margin-top: 35px;
+}
+
+.optiondiv{
+    background-color: rgb(129, 223, 247);
+    border-radius: 15px;
+    height: 40px;
+    width: 170px;
+    display: inline-block;
+    margin: 10px 0px 10px 50px;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.optiondiv:hover{
+    background-color: #09531f;
+    color: white;
+}
+#option1{
+    margin-left: 60px;
+}
+#option2{
+    margin-left: 60px;
+}
+ #option3{
+    margin-left: 60px;
+}
+ #option4{
+    margin-left: 60px;
+}
+
+#selectopt{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+#nameopt{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn{
+    text-align: center;
+}
+
+#start-btn{
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    background-color: #ddd;
+    border: 2px solid black;
+    color: black;
+    padding: 9px 25px;
+    text-align: center;
+    transition: 0.3s;
+    outline: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#start-btn:hover {
+    background-color: #6e3908;
+    color: white;
+  }
+
+
+ #submit-btn{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 9px 25px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    outline: none;
+    cursor: pointer;
+}
+#submit-btn:hover {
+    background-color: #5d6918;
+    color: white;
+  }
+
+#restart-btn{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 9px 25px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    outline: none;
+    cursor: pointer;
+}
+#restart-btn:hover {
+    background-color: #2f0946;
+    color: white;
+  }
+.score{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(224, 161, 88);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.icon{
+    font-size:50px;
+    text-align: center;
+    margin-top:10px;
+}
+.passfail{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.tryagain{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.optiondiv input:checked .choices{
+    background-color: rgb(255, 15, 15);
+    color: darkgoldenrod;
+}
+.restart-btn{
+    margin-top: 20px;
+}
